@@ -15,8 +15,6 @@ This project implements a distributed mutual exclusion system with advanced feat
 - **System Monitoring**: Comprehensive logging system for tracking system events
 - **Graceful Shutdown**: Supports system-wide shutdown initiated by nodes
 
-## System Architecture
-
 ## Component Details
 
 ### 1. Coordinator System
