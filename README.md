@@ -17,21 +17,6 @@ This project implements a distributed mutual exclusion system with advanced feat
 
 ## System Architecture
 
-### High-Level Overview
-                ┌─────────────────┐
-                │   Coordinator   │
-                └────────┬────────┘
-                         │
-                ┌────────┴────────┐
-                │   Token Queue   │
-                └────────┬────────┘
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-  ┌─────┴─────┐    ┌─────┴─────┐    ┌─────┴─────┐
-  │   Node 1  |    │   Node 2  │    │   Node 3  │
-  └───────────┘    └───────────┘    └───────────┘
-
 ## Component Details
 
 ### 1. Coordinator System
