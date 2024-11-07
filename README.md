@@ -29,7 +29,7 @@ This project implements a distributed mutual exclusion system with advanced feat
         ┌────────────────┼────────────────┐
         │                │                │
   ┌─────┴─────┐   ┌─────┴─────┐   ┌─────┴─────┐
-  │   Node 1   │   │   Node 2   │   │   Node 3   │
+  │   Node 1  |   │   Node 2  │   │   Node 3  │
   └───────────┘   └───────────┘   └───────────┘
 
 ## Component Details
